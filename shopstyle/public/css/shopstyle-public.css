@@ -1,0 +1,340 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+#spinner {
+    display: none;
+}
+.bs-component .card {
+    margin-bottom: 1rem;
+}
+.card-body{
+    display: table;
+    max-height: 160px!important;
+    height: 160px;
+    overflow: hidden;
+    position: relative;
+}
+.card-body .img-container{
+    height: 160px;
+    display: table-cell;
+    vertical-align: middle;
+    width: 100%;
+}
+.img-container .img-responsive{
+    margin: 0 auto;
+}
+.card-header h5 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 0px;
+}
+.card-header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    height: 45px;
+}
+.card-header h5{
+    font-size: 13px;
+}
+
+.sidebar #shopstyle-filter-wrap li{
+    color: #888;
+    cursor: pointer;
+}
+.sidebar #shopstyle-filter-wrap li.active{
+    font-weight: 700!important;
+    color: #222;
+}
+.sidebar #shopstyle-filter-wrap li:hover{
+    color: #333;
+    font-weight: 500;
+}
+
+.sidebar .shopstyle-cats{
+    height: 200px;
+    overflow-y: scroll;
+    margin-bottom: 20px;
+    padding-bottom: 1.2em;
+}
+.sidebar .shopstyle-cats .level-2{
+    font-weight: 400;
+    font-size: 13px;
+}
+.sidebar .shopstyle-cats li.level-3,
+.sidebar li.level-3
+{
+    font-size: 13px;
+    padding-left: 0px
+}
+.sidebar .shopstyle-cats ul.level-3,
+.sidebar ul.level-3
+{
+    list-style:initial!important;
+    margin-left:25px;
+}
+ul.filter-color{
+    margin-top: 10px;
+    padding: 0;
+    max-width: 100%;
+    font-size: 14px;
+    list-style: none;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #e8e8e8;
+}
+ul.filter-color li {
+    display: inline-block;
+    overflow: visible;
+    vertical-align: top;
+    margin: 0 7px 7px 0;
+    opacity: 0.6;
+    width: 2em;
+    height: 2em;
+    border-radius: 2em;
+    line-height: 0;
+    text-indent: -9999px;
+    -webkit-transition: all .1s ease;
+    transition: all .1s ease;
+    color: hsla(0,0%,93%,.75);
+    background: #fbfbfb;
+    box-shadow: 0 1px 2px rgba(0,0,0,.5);
+}
+ul.filter-color li.active {
+    opacity: 1.0;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 1);
+}
+
+div.price-wrapper{
+    padding-bottom: 10px;
+    border-bottom: 1px solid #e8e8e8;
+    margin-bottom: 10px;
+}
+.noUi-horizontal {
+    height: 4px;
+}
+.noUi-origin, .noUi-target {
+    border-radius: 20px;
+}
+.noUi-horizontal .noUi-handle {
+    width: 12px;
+    height: 12px;
+    left: -6px;
+    top: -4px;
+}
+.noUi-handle {
+    border-radius: 50px;
+    background: #555;
+    cursor: pointer;
+    box-shadow: none;
+    border-width: 0;
+}
+.noUi-handle:after, .noUi-handle:before {
+    content: "";
+    display: block;
+    position: absolute;
+    height: 0px;
+    width: 1px;
+    background: #E8E7E6;
+    left: 14px;
+    top: 6px;
+}
+.noUi-background {
+    background: #ddd;
+}
+.noUi-connect {
+    background: #555;
+    -webkit-transition: background .45s;
+    transition: background .45s;
+}
+.noUi-origin {
+    background: #ddd;
+}
+.noUi-target {
+    background: #ccc;
+    border: 0px solid #D3D3D3;
+    box-shadow: none;
+}
+.price-slider-values {
+    margin: 10px 0 0;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 20px;
+}
+.price-slider-value-max {
+    float: right;
+}
+
+#filter-discount{
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #e8e8e8;
+}
+.filter-retailer-wrap,
+.filter-brand-wrap,
+.filter-size-wrap,
+.shopstyle-cats-wrap
+{
+    position: relative;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #e8e8e8;
+}
+.filter-retailer,
+.filter-brand,
+.shopstyle-cats
+{
+    max-height: 200px;
+    overflow-y: scroll;
+    border: 1px solid darkgrey;
+    padding: 5px 10px;
+}
+#search-retailer,
+#search-brand,
+#search-product
+{
+    padding: 5px 10px 5px 30px;
+    height: 24px;
+}
+.filter-retailer-wrap i.fa,
+.filter-brand-wrap i.fa,
+.filter-search-keyword-wrap i.fa
+{
+    position: absolute;
+    font-size: 18px;
+    left: 10px;
+    top: 10px;
+    color: #888
+}
+
+#shopstyle-filter-wrap .filter-size-wrap ul{
+    margin: 5px 0px;
+
+}
+#shopstyle-filter-wrap .filter-size-wrap ul.filter-size li{
+    display: inline-block;
+    padding: 2px 10px;
+    border: 1px solid #888;
+    margin-right: 10px;
+    opacity: .6;
+    width:45px;
+    margin-bottom:10px;
+    text-align: center;
+}
+#shopstyle-filter-wrap .filter-size-wrap ul.filter-size li.active{
+    opacity: 1;
+    border: 2px solid #555;
+}
+.row{
+    display: block!important;
+}
+#content-page div[id^='post-']{
+    width: 100%;
+}
+.discount-symbol{
+    position: absolute;
+    width: 40px;
+    height:40px;
+    background-color: #ce7208;
+    right: 11px;
+    color: white;
+    border-radius: 50%;
+    top: 65px;
+}
+.discount-symbol:before {
+    content: "";
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    border: 1px solid #de9b51;
+    border-radius: 50%;
+    top: 1px;
+    right: 1px;
+}
+.discount-symbol span {
+    position: relative;
+    top: 9px;
+}
+a#logo-img{
+    font-size: 48px;
+}
+#tagline{
+    font-size: 12px!important;
+}
+.card {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,0.125);
+    border-radius: 0;
+}
+.bs-component .card {
+    margin-bottom: 1rem;
+}
+
+
+.card-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    height: 45px;
+    padding: 5px 10px;
+    margin-bottom: 0;
+    background-color: rgba(0,0,0,0.03);
+    border-bottom: 1px solid rgba(0,0,0,0.125);
+}
+.card-header:first-child {
+    border-radius: calc(0 - 1px) calc(0 - 1px) 0 0;
+}
+.text-muted {
+    color: #868e96 !important;
+}
+
+.text-center {
+    text-align: center !important;
+}
+.card-header h5 {
+    font-size: 13px;
+}
+.card-header h5 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.card-body {
+    display: table;
+    max-height: 160px!important;
+    height: 160px;
+    overflow: hidden;
+    position: relative;
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 1rem;
+    margin: 0 auto;
+}
+.card-footer {
+    padding: 5px 10px;
+    background-color: rgba(0,0,0,0.03);
+    border-top: 1px solid rgba(0,0,0,0.125);
+}
+.card-footer h5{
+    margin: 10px!important;
+}
