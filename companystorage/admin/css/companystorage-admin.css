@@ -1,0 +1,59 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+.companystorage-wrapper{max-width: 1000px}
+.companystorage-wrapper .form-table th {
+    vertical-align: middle;
+}
+.companystorage-wrapper select, .companystorage-wrapper input {
+    width: 320px;
+}
+.companystorage-wrapper .form-table td,
+.companystorage-wrapper .form-table th{
+    padding: 5px 10px;
+}
+.companystorage-wrapper .btn-default {
+    color: #333;
+    background-color: #fff;
+    border-color: #ccc!important;
+}
+.companystorage-wrapper .btn {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+.companystorage-wrapper  #colorSelector {
+    position: relative;
+    width: 36px;
+    height: 36px;
+    background: url(../images/select.png);
+}
+.companystorage-wrapper  #colorSelector div {
+    position: absolute;
+    top: 3px;
+    left: 3px;
+    width: 30px;
+    height: 30px;
+    background: url(../images/select.png) center;
+}
